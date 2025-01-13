@@ -1,0 +1,76 @@
+<!-- style.css -->
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+header {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 10px 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #0077cc;
+}
+nav ul li a:hover {
+    text-decoration: underline;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.timeline {
+    position: relative;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+.timeline .line {
+    position: absolute;
+    width: 2px;
+    background: #333;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.timeline .event {
+    margin: 20px 0;
+    display: flex;
+}
+.timeline .event.left .content {
+    text-align: right;
+    padding-right: 20px;
+}
+.timeline .event.right .content {
+    text-align: left;
+    padding-left: 20px;
+}
+.timeline .event .content {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+.timeline .event.left {
+    justify-content: flex-end;
+}
+.timeline .event.right {
+    justify-content: flex-start;
+}
