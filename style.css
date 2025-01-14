@@ -153,3 +153,16 @@ footer a {
     padding-left: 15px;
     color: #333;
 }
+
+/* Styles pour les liens dans les événements */
+
+.event .content a {
+    color: #0077cc; /* Couleur du lien */
+    text-decoration: none; /* Supprime le soulignement */
+    font-weight: bold; /* Met le texte en gras */
+}
+
+.event .content a:hover {
+    color: #005fa3; /* Couleur au survol */
+    text-decoration: underline; /* Ajoute un soulignement au survol */
+}
