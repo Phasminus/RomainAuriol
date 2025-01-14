@@ -35,57 +35,55 @@ h1 {
 }
 
 .event {
+    position: relative;
+    margin: 20px 0;
     display: flex;
     justify-content: flex-end;
-    align-items: flex-start;
-    margin: 20px 0;
-    position: relative;
 }
 
 .event.left {
-    justify-content: flex-end;
-    text-align: right;
+    flex-direction: row-reverse;
 }
 
 .event.right {
-    justify-content: flex-start;
-    text-align: left;
-}
-
-.event .content {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    width: 40%;
-    position: relative;
-}
-
-.event .content.diploma {
-    border-left: 4px solid #ff6600;
-}
-
-.event .content.exp {
-    border-left: 4px solid #0077cc;
+    flex-direction: row;
 }
 
 .event .date {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 100px;
+    text-align: center;
     font-weight: bold;
-    font-size: 0.9em;
-    background-color: #fff;
-    padding: 3px 6px;
+    background-color: #f4f4f4;
+    padding: 5px;
     border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.event .content {
+    max-width: 400px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    position: relative;
+    border-left: 5px solid;
+}
+
+.event .content.exp {
+    border-color: #0077cc;
+}
+
+.event .content.diploma {
+    border-color: #ff6600;
 }
 
 .event.left .date {
-    right: -50px;
+    margin-right: 20px;
 }
 
 .event.right .date {
-    left: -50px;
+    margin-left: 20px;
 }
+
 
 footer {
     background-color: #0077cc;
