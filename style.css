@@ -109,3 +109,52 @@ footer a {
     color: white;
     text-decoration: none;
 }
+
+.image-quote-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    margin: 20px 0;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
+    width: 90%;
+}
+
+.image-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.quote-container {
+    flex: 1;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    font-style: italic;
+    color: #555;
+}
+
+.quote-container blockquote {
+    margin: 0;
+    padding: 0;
+    border-left: 4px solid #0077cc;
+    padding-left: 15px;
+    color: #333;
+}
