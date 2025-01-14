@@ -180,6 +180,7 @@ footer a {
     border-radius: 10px; /* Coins arrondis */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet pro */
     transition: transform 0.3s ease;
+    border: none;
     
 }
 
