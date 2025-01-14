@@ -224,3 +224,34 @@ footer a {
 .logo-pix:hover {
     transform: scale(1.05); /* Zoom au survol */
 }
+
+header nav {
+    text-align: center; /* Centre les éléments */
+    margin-top: 10px; /* Ajoute de l’espace au-dessus */
+}
+
+header nav ul {
+    list-style-type: none; /* Supprime les puces des listes */
+    padding: 0; /* Supprime les marges internes */
+    margin: 0; /* Supprime les marges externes */
+    display: inline-block; /* Aligne les éléments en ligne */
+}
+
+header nav ul li {
+    display: inline; /* Place les liens horizontalement */
+    margin: 0 15px; /* Espace entre les liens */
+}
+
+header nav ul li a {
+    text-decoration: none; /* Supprime le soulignement des liens */
+    font-size: 1.2em; /* Taille du texte */
+    color: #0077cc; /* Couleur des liens */
+    padding: 5px 10px; /* Espace autour du texte */
+    border-radius: 5px; /* Coins arrondis */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Animation au survol */
+}
+
+header nav ul li a:hover {
+    background-color: #0077cc; /* Couleur de fond au survol */
+    color: #fff; /* Couleur du texte au survol */
+}
