@@ -49,14 +49,11 @@ h1 {
     flex-direction: row;
 }
 
-.event .date {
-    width: 100px;
-    text-align: center;
+.event .content .date {
     font-weight: bold;
-    background-color: #f4f4f4;
-    padding: 5px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+    font-size: 0.9em;
+    color: #666;
+    margin-bottom: 10px; /* Espace entre la date et le texte principal */
 }
 
 .event .content {
