@@ -77,11 +77,11 @@ h1 {
 }
 
 .event.left .date {
-    margin-right: 20px;
+    margin-right: 100px;
 }
 
 .event.right .date {
-    margin-left: 20px;
+    margin-left: 100px;
 }
 
 
