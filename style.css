@@ -261,3 +261,12 @@ header nav ul li a:hover {
     background-color: #005fa3; /* Fond bleu foncé au survol */
     color: #ffcc00; /* Texte jaune au survol */
 }
+
+.content img.logo {
+    max-width: 50px; /* Limite la largeur du logo */
+    height: auto; /* Maintient les proportions */
+    margin-right: 10px; /* Espace entre le logo et le texte */
+    float: left; /* Aligne le logo à gauche du texte */
+    border-radius: 5px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet pro */
+}
