@@ -166,3 +166,47 @@ footer a {
     color: #005fa3; /* Couleur au survol */
     text-decoration: underline; /* Ajoute un soulignement au survol */
 }
+
+.project {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    gap: 20px; /* Espace entre l'image et la description */
+}
+
+.project-image img {
+    max-width: 300px; /* Taille maximale de l'image */
+    height: auto; /* Maintient les proportions */
+    border-radius: 10px; /* Coins arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre pour un effet pro */
+    transition: transform 0.3s ease;
+}
+
+.project-image img:hover {
+    transform: scale(1.05); /* Zoom léger au survol */
+}
+
+.project-description {
+    max-width: 600px; /* Largeur maximale de la description */
+}
+
+.project-description h3 {
+    font-size: 1.5em;
+    color: #0077cc;
+    margin: 0 0 10px 0;
+}
+
+.project-description p {
+    font-size: 1em;
+    color: #333;
+}
+
+.project-description a {
+    color: #0077cc;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.project-description a:hover {
+    text-decoration: underline;
+}
