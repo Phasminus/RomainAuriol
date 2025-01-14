@@ -211,3 +211,15 @@ footer a {
 .project-description a:hover {
     text-decoration: underline;
 }
+
+.logo-pix {
+    max-width: 150px; /* Taille spécifique pour le logo PIX */
+    height: auto; /* Conserve les proportions */
+    border-radius: 5px; /* Coins légèrement arrondis */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    transition: transform 0.3s ease; /* Animation au survol */
+}
+
+.logo-pix:hover {
+    transform: scale(1.05); /* Zoom au survol */
+}
