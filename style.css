@@ -83,10 +83,13 @@ h1 {
 
 
 footer {
-    background-color: #0077cc;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #0077cc; /* La couleur bleue */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centrage du texte */
+    padding: 10px 0; /* Espacement vertical */
+    position: relative; /* Assure que le footer reste bien positionné */
+    width: 100%; /* Prend toute la largeur */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre en haut */
 }
 
 footer ul {
