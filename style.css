@@ -83,6 +83,8 @@ h1 {
 
 
 footer {
+    clear: both; /* Évite l'interférence avec les flottants */
+    display: block; /* Force le footer à être un élément de bloc */
     background-color: #0077cc; /* La couleur bleue */
     color: white; /* Texte en blanc */
     text-align: center; /* Centrage du texte */
