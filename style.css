@@ -90,6 +90,7 @@ footer {
     position: relative; /* Assure que le footer reste bien positionné */
     width: 100%; /* Prend toute la largeur */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre en haut */
+    clear: both; /* Réinitialise les flottants */
 }
 
 footer ul {
