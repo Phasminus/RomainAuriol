@@ -270,20 +270,36 @@ header nav ul li a:hover {
     border-radius: 5px; /* Coins arrondis */
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre pour un effet pro */
 }
-/* Section du projet en vedette */
+/* Section "À la Une" */
 .featured-project {
-    background-color: #f9f9f9; /* Couleur de fond neutre */
+    background-color: #f9f9f9;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
-    margin: 20px 0;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Légère ombre */
-    text-align: center; /* Centre le texte */
+    margin: 20px auto; /* Centre horizontalement */
+    max-width: 800px; /* Largeur maximale */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .featured-project h2 {
-    color: #0077cc;
+    color: #ff6600; /* Mention "À la Une" en orange */
     font-size: 1.8em;
+    margin-bottom: 10px;
+    text-transform: uppercase; /* Majuscules */
+}
+
+.featured-project img {
+    max-width: 100%; /* Adapte l'image à la largeur */
+    height: auto;
+    margin-bottom: 15px; /* Espace sous l'image */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured-project h3 {
+    color: #0077cc; /* Titre du rapport en bleu */
+    font-size: 1.5em;
     margin-bottom: 10px;
 }
 
@@ -308,4 +324,11 @@ header nav ul li a:hover {
 .featured-project .btn-featured:hover {
     background-color: #005fa3;
     transform: scale(1.05);
+}
+
+/* Ligne de séparation */
+.divider {
+    margin: 30px 0;
+    border: none;
+    border-top: 1px solid #ddd;
 }
