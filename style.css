@@ -290,12 +290,16 @@ header nav ul li a:hover {
 }
 
 .featured-project img {
-    max-width: 100%; /* Adapte l'image à la largeur */
-    height: auto;
-    margin-bottom: 15px; /* Espace sous l'image */
-    border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 100%; /* Adapte la largeur à celle de la section */
+    height: auto; /* Conserve les proportions */
+    display: block; /* Empêche le texte de s'enrouler autour */
+    margin: 0 auto 15px auto; /* Centre l'image et ajoute de l'espace en bas */
+    border-radius: 10px; /* Coins arrondis pour un look propre */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre légère */
+    max-height: 300px; /* Limite la hauteur pour éviter qu'elle soit trop grande */
+    object-fit: cover; /* Ajuste l'image pour remplir la hauteur sans déformation */
 }
+
 
 .featured-project h3 {
     color: #0077cc; /* Titre du rapport en bleu */
