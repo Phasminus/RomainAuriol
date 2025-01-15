@@ -93,7 +93,7 @@ footer {
     width: 100%; /* Prend toute la largeur */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre en haut */
     clear: both; /* Réinitialise les flottants */
-    margin: 0 auto; /* Centre le footer horizontalement */
+    margin-top: 20px; /* Centre le footer horizontalement */
     z-index: 10; /* Assure qu'il est au-dessus d'autres éléments si besoin */
 }
 
@@ -351,6 +351,7 @@ header nav ul li a:hover {
     justify-content: space-between; /* Espace entre les colonnes */
     gap: 20px; /* Espacement horizontal */
     margin-top: 30px; /* Espace par rapport à la section "À la Une" */
+    position: relative; /* Assure que les projets restent localisés */
 }
 
 /* Colonnes des projets */
