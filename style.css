@@ -83,34 +83,14 @@ h1 {
 
 
 footer {
-    clear: both; /* Évite l'interférence avec les flottants */
-    display: block; /* Force le footer à être un élément de bloc */
-    background-color: #0077cc; /* La couleur bleue */
-    color: white; /* Texte en blanc */
-    text-align: center; /* Centrage du texte */
-    padding: 10px 0; /* Espacement vertical */
-    position: relative; /* Assure que le footer reste bien positionné */
-    width: 100%; /* Prend toute la largeur */
-    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Ajoute une légère ombre en haut */
-    clear: both; /* Réinitialise les flottants */
-    margin-top: 20px; /* Centre le footer horizontalement */
-    z-index: 10; /* Assure qu'il est au-dessus d'autres éléments si besoin */
-}
-
-footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer li {
-    display: inline;
-    margin: 0 10px;
-}
-
-footer a {
-    color: white;
-    text-decoration: none;
+    background-color: #0077cc; /* Couleur bleue */
+    color: white; /* Texte blanc */
+    text-align: center; /* Centre le texte */
+    padding: 10px; /* Espacement interne */
+    width: 100%; /* Assure qu'il prend toute la largeur */
+    position: relative; /* Garde le footer en bas de la page */
+    margin-top: 30px; /* Ajoute un espace avec le contenu */
+    clear: both; /* Empêche tout chevauchement */
 }
 
 .image-quote-section {
